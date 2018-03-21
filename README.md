@@ -50,3 +50,15 @@ plt.yticks([0,2],[0,2B])#first one is mumeric to plot  and second is label for r
 #color is changed accordingly by passing it as a argument to the scatter or plot etc.
 ```
 ---
+
+## pandas
+
+- Pandas is an open source library
+- providing high-performance, easy-to-use data structures 
+- data analysis tools for Python
+
+DataFrame
+
+- DataFrame is one of Pandas' most important data structures
+- a way to store tabular data
+- One way to build a DataFrame is from a dictionary
