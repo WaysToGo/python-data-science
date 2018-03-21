@@ -48,5 +48,5 @@ plt.title('world population') # adds title
 plt.yticks([0,2],[0,2B])#first one is mumeric to plot  and second is label for representation 
 
 #color is changed accordingly by passing it as a argument to the scatter or plot etc.
-
+```
 ---
