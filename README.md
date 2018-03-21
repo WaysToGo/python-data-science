@@ -45,7 +45,7 @@ plt.hist(population,bins=3)#represents histogram based on the values and divides
 #different customizations can be done like color plot type etc
 plt.xlabel('year')#adds x label as year 
 plt.title('world population') # adds title
-plt.yticks([0,2],[0,2Billion])#first one is mumeric to plot  and second is label for representation 
+plt.yticks([0,2],[0,2 B])#first one is mumeric to plot  and second is label for representation 
 
 #color is changed accordingly by passing it as a argument to the scatter or plot etc.
 ```
