@@ -68,14 +68,14 @@ how to use?
 ```python
 
 import pandas as pd
-bikes = pd.read_csv('bikes.csv', index_col = 0)#while reading csv file if column zero is used for count or names etc with out title then it will be shown as unnamed:0 and it gives count by default to make it column zero as defalut and remove default count we use index_col=0(index column is zero)
+bikes = pd.read_csv('bikes.csv', index_col = 0)#while reading csv file if column zero is used for count or names etc with out title then it will be shown as unnamed:0 and it gives index by default to make it column zero as default index and to remove default index we use index_col=0(index column is zero)
 bikes['country']# return pandas.code.series.Series
 bikes[['country']]# return pandas.code.frame.DataFrame
 bikes[['','']] #a way of selecting two columns
-#licing is similar
+#Slicing is similar
 bikes.loc['IN']# returns row where index is 'IN'
 bikes.iloc[0]#loc and iloc does same work with different input(arguments)
-bikes.loc[[, "IN", "CH"], ["country", "capital"]] ##way of selecting rows and columns
+bikes.loc[[, "IN", "CH"], ["country", "capital"]] #way of selecting rows and columns
 bikes.loc[:, ["country", "capital"]]# selects all rows and two columns
 
 
